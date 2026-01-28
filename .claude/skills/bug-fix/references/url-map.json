@@ -1,0 +1,49 @@
+{
+  "_base_urls": {
+    "staging": "https://proxy-staging-2b4c.up.railway.app",
+    "pr_preview": "https://proxy-m360web-pr-{PR#}.up.railway.app",
+    "local": "http://localhost:5173"
+  },
+  "_auth": {
+    "method": "magic_link",
+    "suggested_email": "xpatel@pulsecode.ca",
+    "note": "Ask user for their email, suggest this as default. User must paste magic link back."
+  },
+  "aperture": {
+    "main": "/aperture",
+    "review": "/aperture/review",
+    "assignments": "/aperture/assignments",
+    "analytics": "/aperture/analytics"
+  },
+  "products": {
+    "list": "/products",
+    "detail": "/products/:id",
+    "search": "/products?search=:query"
+  },
+  "forge": {
+    "main": "/forge",
+    "datasets": "/forge/datasets",
+    "models": "/forge/models",
+    "training": "/forge/training"
+  },
+  "surveys": {
+    "list": "/surveys",
+    "detail": "/surveys/:id",
+    "responses": "/surveys/:id/responses"
+  },
+  "auth": {
+    "login": "/",
+    "callback": "/auth/callback",
+    "settings": "/settings",
+    "profile": "/settings/profile"
+  },
+  "config": {
+    "main": "/config",
+    "feature-flags": "/config/flags"
+  },
+  "admin": {
+    "users": "/admin/users",
+    "invites": "/admin/invites",
+    "audit": "/admin/audit"
+  }
+}

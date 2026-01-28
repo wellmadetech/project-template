@@ -1,0 +1,63 @@
+{
+  "navigation": {
+    "sidebar": "[data-testid='sidebar']",
+    "navbar": "[data-testid='navbar']",
+    "nav_link": "[data-testid='nav-link-{name}']",
+    "breadcrumb": "[data-testid='breadcrumb']"
+  },
+  "forms": {
+    "input": "input[name='{name}']",
+    "select": "select[name='{name}']",
+    "checkbox": "input[type='checkbox'][name='{name}']",
+    "submit": "button[type='submit']",
+    "cancel": "button[data-testid='cancel-btn']"
+  },
+  "tables": {
+    "table": "[data-testid='data-table']",
+    "row": "[data-testid='table-row-{id}']",
+    "header": "th[data-column='{column}']",
+    "cell": "td[data-column='{column}']",
+    "pagination": "[data-testid='pagination']"
+  },
+  "modals": {
+    "overlay": "[data-testid='modal-overlay']",
+    "content": "[data-testid='modal-content']",
+    "close": "[data-testid='modal-close']",
+    "confirm": "[data-testid='modal-confirm']"
+  },
+  "alerts": {
+    "toast": "[data-testid='toast']",
+    "error": "[data-testid='error-alert']",
+    "success": "[data-testid='success-alert']",
+    "warning": "[data-testid='warning-alert']"
+  },
+  "aperture": {
+    "image_grid": "[data-testid='image-grid']",
+    "image_card": "[data-testid='image-card-{id}']",
+    "image_viewer": "[data-testid='image-viewer']",
+    "annotation_tools": "[data-testid='annotation-tools']",
+    "product_sidebar": "[data-testid='product-sidebar']",
+    "product_card": "[data-testid='product-card-{id}']",
+    "layer_panel": "[data-testid='layer-panel']"
+  },
+  "products": {
+    "product_list": "[data-testid='product-list']",
+    "product_card": "[data-testid='product-card-{id}']",
+    "product_detail": "[data-testid='product-detail']",
+    "search_input": "[data-testid='product-search']",
+    "filter_panel": "[data-testid='filter-panel']"
+  },
+  "common": {
+    "loading": "[data-testid='loading-spinner']",
+    "empty_state": "[data-testid='empty-state']",
+    "error_boundary": "[data-testid='error-boundary']",
+    "skeleton": "[data-testid='skeleton']"
+  },
+  "actions": {
+    "primary_button": "button.btn-primary",
+    "secondary_button": "button.btn-secondary",
+    "icon_button": "button[aria-label='{label}']",
+    "dropdown_trigger": "[data-testid='dropdown-trigger']",
+    "dropdown_item": "[data-testid='dropdown-item-{value}']"
+  }
+}
